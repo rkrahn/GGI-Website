@@ -5,26 +5,26 @@
     url('./fonts/TheBoldFont.eot'); /* IE */
 }
 
-@media (min-width: 1200px)
+/* @media (min-width: 1200px)
 {
     .container {
         max-width: 980px;
     }
-}
+} */
 
-.link:link 
+a:link 
 {
     color: #b0cef1;
 }
-.link:visited 
+a:visited 
 {
     color: #b0cef1;
 }
-.link:hover 
+a:hover 
 {
     color: #dce2e9;
 }
-.link:active 
+a:active 
 {
     color: #93bceb;
 }
@@ -32,6 +32,7 @@
 html,
 .ggi-grey-dark
 {
+    background-image: url("images/gaming-pattern-1.png");
     background-color: #303132;
     font-family: 'Roboto', sans-serif;
     color: #dce2e9;
@@ -40,25 +41,138 @@ html,
 body
 {
     margin: 0px;
-    margin-top: 55px;
+    margin-top: 52px;
 }
 
 .navbar
 {
-    width: 100%;
+    left: 0px;
+    right: 0px;
     display: block;
     position: fixed;
+    height: 32px;
     top: 0px;
-    padding: 10px 10% 10px;
+    padding: 10px 5% 10px;
+    color: #ffffff;
     background-color: #ff7f00;
     font-family: 'The Bold Font', sans-serif;
     /* border-top: 1px solid #ff972f; */
 }
 
+.navbar img
+{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.name
+{
+    float: left;
+    vertical-align: middle;
+}
+.name span
+{
+    vertical-align: middle;
+}
+
+.menu
+{
+    float: right;
+    height: 30px;
+    font-size: 20px;
+}
+.menu span
+{
+    vertical-align: middle;
+    height: 30px;
+}
+.menu a
+{
+    display: inline;
+    vertical-align: middle;
+    text-decoration: none;
+    height: 30px;
+    margin-left: 15px;
+}
+.menu a:link 
+{
+    color: #ffffff;
+}
+.menu a:visited 
+{
+    color: #ffffff;
+}
+.menu a:hover 
+{
+    color: #dce2e9;
+}
+.menu a:active 
+{
+    color: #93bceb;
+}
+
 .container
 {
-    margin: 0px 10%;
+    margin: 80px 10% 0px;
 }
+
+#Games,
+#About
+{
+    font-family: 'The Bold Font', sans-serif;
+    padding-top: 80px; 
+    margin-top: -80px;
+}
+
+.info
+{
+    float: right;
+    margin: auto;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.vegetaball,
+.null-space
+{
+    display: inline-block;
+    height: auto;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.vegetaball img,
+.null-space img,
+td img
+{
+    display: block;
+    float: left;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.section
+{
+    display: block;
+    float: left;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+table
+{
+    width: 100%;
+    table-layout: fixed;
+}
+
+td
+{
+    text-align: center;
+    width: 50%;
+}
+
 
 .ggi-orange
 {
@@ -120,19 +234,6 @@ body
 .ggi-orange-muted
 {
     color: #fff7ef;
-}
-
-.ggi-logo
-{
-    background-color: #ff7f00;
-    background-image: url("../images/ggi_logo.png");
-    width: 100%;
-    height: auto    ;
-}
-
-.jumbotron
-{
-    border-radius: 0px;
 }
 
 .footer
