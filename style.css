@@ -131,6 +131,14 @@ h1 {
     padding: 50px 10% 50px;
 }
 
+.star-dungeon {
+    background-image: url("images/star-dungeon-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-color: #7b7b7b;
+    background-blend-mode: multiply;
+}
+
 .vegetaball {
     background-image: url("images/vegetaball-bg.png");
     background-size: cover;
